@@ -1,0 +1,117 @@
+body {
+    height: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif, Microsoft YaHei, Arial, sans-serif;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+    font-weight: 700;
+}
+
+.el-form-item__label {
+    font-size: 0.75rem !important;
+    text-transform: uppercase;
+    letter-spacing: inherit;
+    margin-bottom: 0.25rem !important;
+    font-weight: 400;
+    padding: 0 !important;
+    line-height: 1.5 !important;
+}
+
+.d {
+    &-flex {
+        display: flex;
+    }
+
+    &-block {
+        display: block;
+    }
+
+    &-inline-block {
+        display: inline-block;
+    }
+}
+
+.justify-content {
+    &-center {
+        justify-content: center;
+    }
+
+    &-end {
+        justify-content: flex-end;
+    }
+}
+
+.align-items {
+    &-center {
+        align-items: center;
+    }
+
+    &-end {
+        align-items: flex-end;
+    }
+}
+
+.text {
+    &-center {
+        text-align: center;
+    }
+
+    &-left {
+        text-align: left;
+    }
+
+    &-right {
+        text-align: right;
+    }
+
+    &-capitalize {
+        text-transform: capitalize;
+    }
+
+    &-uppercase {
+        text-transform: uppercase;
+    }
+}
+
+.w {
+    &-100 {
+        width: 100%;
+    }
+}
+
+.m {
+    &b {
+        &-10 {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.inset-block-start {
+    &-4 {
+        inset-block-start: 1rem;
+    }
+}
+
+.transition-sidebar {
+    transition: transform 0.25s ease-in-out, inline-size 0.25s ease-in-out,
+        box-shadow 0.25s ease-in-out;
+}

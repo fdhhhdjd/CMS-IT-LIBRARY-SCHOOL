@@ -1,0 +1,50 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "target": "esnext",
+        "useDefineForClassFields": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "isolatedModules": true,
+        "strict": true,
+        "jsx": "preserve",
+        "jsxFactory": "h",
+        "jsxFragmentFactory": "Fragment",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+            "@axios": [
+                "src/plugins/axios"
+            ],
+        },
+        "lib": [
+            "esnext",
+            "dom",
+            "dom.iterable",
+            "scripthost"
+        ],
+        "skipLibCheck": true,
+        "types": [
+            "unplugin-vue-define-options/macros-global",
+            "vite/client",
+            "vite-plugin-pages/client",
+            "vite-plugin-vue-layouts/client"
+        ]
+    },
+    "include": [
+        "vite.config.*",
+        "*.d.ts",
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "src/**/*",
+        "src/**/*.vue",
+    ],
+    "exclude": [
+        "dist",
+        "node_modules",
+    ]
+}

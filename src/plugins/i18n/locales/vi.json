@@ -1,0 +1,64 @@
+{
+    "Router": {
+        "Device": "Quản lý thiết bị",
+        "Service": "Quản lý dịch vụ",
+        "Accessory": "Quản lý linh kiện",
+        "Demo": "Toi test demo"
+    },
+    "Device": {
+        "Management": "Quản lý thiết bị",
+        "List": "Danh sách thiết bị",
+        "Create": "Thêm mới thiết bị",
+        "Update": "Chỉnh sửa thiết bị",
+        "Name": "Tên thiết bị",
+        "Serial": "Số serial",
+        "Type": "Loại"
+    },
+    "Service": {
+        "Management": "Quản lý dịch vụ"
+    },
+    "Accessory": {
+        "Management": "Quản lý linh kiện"
+    },
+    "User": {
+        "Email": "E-mail",
+        "Username": "Tên đăng nhập",
+        "Mssv": "Mã số sinh viên",
+        "Password": "Mật khẩu"
+    },
+    "Status": {
+        "Name": "Trạng Thái"
+    },
+    "Btn": {
+        "Login": "Đăng Nhập",
+        "Logout": "Đăng Xuất",
+        "Search": "Tìm Kiếm",
+        "Reset": "Làm Mới",
+        "Create": "Thêm Mới",
+        "Update": "Chỉnh Sửa"
+    },
+    "Validate": {
+        "Required": "{field} không được bỏ trống.",
+        "MinLength": "{field} phải có tối thiểu {length} ký tự.",
+        "MaxLength": "{field} không được vượt quá {length} ký tự.",
+        "MinMaxLength": "{field} phải có {min} - {max} ký tự.",
+        "Email": "{field} không đúng định dạng"
+    },
+    "Message": {
+        "Login": {
+            "Success": "Đăng Nhập Thành Công",
+            "Error": "?"
+        },
+        "Logout": {
+            "Success": "Đăng Xuất Thành Công",
+            "Error": "Đăng Xuất Thất Bại"
+        }
+    },
+    "Select": {
+        "NoData": "Không có {field} nào!",
+        "NoMatch": "Không tìm thấy {field} phù hợp!"
+    },
+    "All": "Tất cả",
+    "Type": "Loại",
+    "Search": "Tìm kiếm thông tin"
+}

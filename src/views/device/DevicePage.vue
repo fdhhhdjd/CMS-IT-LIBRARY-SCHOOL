@@ -1,0 +1,4 @@
+<template>
+    <DeviceSearch />
+    <DeviceList />
+</template>

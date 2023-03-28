@@ -1,0 +1,51 @@
+{
+  "editor.guides.bracketPairs": "active",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.autoClosingBrackets": "always"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  // JSON
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  // Vue
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar",
+  },
+  // Extension: Volar
+  "volar.preview.port": 3000,
+  "volar.completion.preferredTagNameCase": "pascal",
+  // "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    // "source.fixAll.stylelint": true,
+    // "source.organizeImports": true,
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  // Extension: Spell Checker
+  "cSpell.words": [
+    "Composables",
+    "Customizer",
+    "flagpack",
+    "Iconify",
+    "psudo",
+    "tabler",
+    "touchless",
+    "triggerer",
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
